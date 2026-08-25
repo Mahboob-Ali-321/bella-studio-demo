@@ -14,7 +14,7 @@ export function Hero() {
         fetchPriority="high"
         className="absolute inset-0 -z-10 h-full w-full object-cover"
       />
-      <div className="absolute inset-0 -z-10 bg-plum-deep/72" />
+      <div className="absolute inset-0 -z-10 bg-plum-deep/45" />
       <div
         className="absolute inset-0 -z-10"
         style={{ background: "var(--gradient-plum)" }}

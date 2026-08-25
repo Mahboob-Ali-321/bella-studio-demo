@@ -93,9 +93,10 @@
     oklch(0.78 0.12 82)
   );
   --gradient-plum: linear-gradient(
-    180deg,
-    oklch(0.17 0.055 340 / 0%),
-    oklch(0.15 0.05 340 / 92%)
+    100deg,
+    oklch(0.15 0.05 340 / 88%) 0%,
+    oklch(0.15 0.05 340 / 45%) 55%,
+    oklch(0.15 0.05 340 / 20%) 100%
   );
   --shadow-lux: 0 24px 60px -28px oklch(0 0 0 / 70%);
   --shadow-glow: 0 0 0 1px oklch(0.81 0.13 86 / 35%), 0 18px 45px -20px oklch(0.81 0.13 86 / 45%);
