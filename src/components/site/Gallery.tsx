@@ -8,12 +8,12 @@ import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
 
 const shots = [
-  { src: g1, alt: "Balayage colour and glossy blow-dry", label: "Hair Colour", tall: true },
-  { src: g2, alt: "Men's fade haircut and beard sculpt", label: "Men's Grooming", tall: false },
-  { src: g3, alt: "Bridal makeup with soft glow finish", label: "Bridal Makeup", tall: false },
-  { src: g4, alt: "Glossy nude manicure detail", label: "Nail Studio", tall: false },
-  { src: g5, alt: "Hair spa and facial treatment", label: "Spa Rituals", tall: false },
-  { src: g6, alt: "Sleek precision bob with high shine", label: "Precision Cuts", tall: true },
+  { src: g1, alt: "Balayage colour and glossy blow-dry", label: "Hair Colour" },
+  { src: g2, alt: "Men's fade haircut and beard sculpt", label: "Men's Grooming" },
+  { src: g3, alt: "Bridal makeup with soft glow finish", label: "Bridal Makeup" },
+  { src: g4, alt: "Glossy nude manicure detail", label: "Nail Studio" },
+  { src: g5, alt: "Hair spa and facial treatment", label: "Spa Rituals" },
+  { src: g6, alt: "Sleek precision bob with high shine", label: "Precision Cuts" },
 ];
 
 export function Gallery() {
@@ -26,14 +26,13 @@ export function Gallery() {
           subtitle="A small selection of recent work by our styling, colour and makeup teams."
         />
 
-        <div className="mt-16 grid auto-rows-[240px] grid-cols-2 gap-4 sm:auto-rows-[280px] lg:grid-cols-3">
+        <div className="mt-16 grid grid-cols-2 gap-4 lg:grid-cols-3">
           {shots.map((shot, index) => (
             <Reveal
               key={shot.label}
               delay={index * 80}
-              className={shot.tall ? "row-span-2" : ""}
             >
-              <figure className="group relative h-full overflow-hidden rounded-sm border border-border">
+              <figure className="group relative aspect-[4/5] overflow-hidden rounded-sm border border-border">
                 <img
                   src={shot.src}
                   alt={shot.alt}
