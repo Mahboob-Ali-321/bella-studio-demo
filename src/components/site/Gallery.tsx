@@ -31,7 +31,7 @@ export function Gallery() {
             <Reveal
               key={shot.label}
               delay={index * 80}
-              className={shot.tall ? "row-span-2" : undefined}
+              className={shot.tall ? "row-span-2" : ""}
             >
               <figure className="group relative h-full overflow-hidden rounded-sm border border-border">
                 <img
