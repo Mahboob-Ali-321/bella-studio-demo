@@ -12,9 +12,9 @@ export function Hero() {
         width={1600}
         height={1104}
         fetchPriority="high"
-        className="absolute inset-0 -z-10 h-full w-full object-cover"
+        className="absolute inset-0 -z-10 h-full w-full object-cover brightness-125"
       />
-      <div className="absolute inset-0 -z-10 bg-plum-deep/45" />
+      <div className="absolute inset-0 -z-10 bg-plum-deep/25" />
       <div
         className="absolute inset-0 -z-10"
         style={{ background: "var(--gradient-plum)" }}
