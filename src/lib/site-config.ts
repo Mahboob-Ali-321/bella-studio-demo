@@ -6,11 +6,11 @@
 export const site = {
   name: "Bella Studio",
   tagline: "Unisex Salon & Beauty Lounge",
-  phone: "+1 (555) 014-8820",
-  whatsapp: "15550148820",
-  email: "hello@bellastudio.com",
-  address: "24 Rosewood Avenue, Downtown District, Springfield",
-  mapQuery: "24 Rosewood Avenue Springfield",
+  phone: "+91 98765 43210",
+  whatsapp: "919876543210",
+  email: "hello@bellastudio.in",
+  address: "56 Dukaan Road, New Palasia, Indore, Madhya Pradesh 452001",
+  mapQuery: "New Palasia, Indore",
   hours: [
     { day: "Monday – Friday", time: "9:00 AM – 8:00 PM" },
     { day: "Saturday", time: "9:00 AM – 9:00 PM" },
